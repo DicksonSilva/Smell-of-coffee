@@ -43,7 +43,7 @@ body{
 
 .cabecalho-basico .cabecalho-limite h1 {
 	float: left;
-	font: normal 32px Cookie, Arial, Helvetica, sans-serif;
+	font: normal 48px Cookie, Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	margin: 0;
 }
@@ -52,7 +52,7 @@ body{
 	color: #F40000;
 }
 
-/* Os links do cabeçalho */
+/* Os links do cabeÃ§alho */
 
 .cabecalho-basico .cabecalho-limite a {
 	color: #EAF0F2;
