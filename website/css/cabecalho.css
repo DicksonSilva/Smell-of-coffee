@@ -1,5 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url(https://fonts.gstatic.com/s/crimsontext/v8/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2);
+@import url(https://fonts.googleapis.com/css?family=Sedgwick+Ave);
 
 
 html{
@@ -7,7 +8,7 @@ html{
 }
 
 body{
-	font:14px/1.5 Arial, Helvetica, sans-serif;
+	font-family: 'Sedgwick Ave', cursive;
 	padding:0;
 	margin:0;
 	background-color:  #EAF0F2;
