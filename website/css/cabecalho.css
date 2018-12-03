@@ -4,7 +4,7 @@
 
 
 html{
-	background-color: #eaf0f2;
+	background-color: #98734F;
 }
 
 body{
@@ -15,14 +15,14 @@ body{
 }
 
 .cabecalho-basico {
-	background-color: #5A5A5A;
+	background-color: #98734F;
 	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
 	padding: 20px 40px;
 	height: 80px;
 	box-sizing: border-box;
 }
 .cabecalho-inferior{
-	background-color: #222222;
+	background-color: #BF9A76;
 	font:24px/1.5 Crimson Text, sans-serif;
 	top: 80px;
 	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
@@ -50,7 +50,7 @@ body{
 }
 
 .cabecalho-basico .cabecalho-limite h1 span {
-	color: #F40000;
+	color: #3D2106;
 }
 
 /* Os links do cabeçalho */
@@ -80,7 +80,7 @@ body{
 }
 
 .cabecalho-basico .cabecalho-limite nav a.selected {
-	color: #7F0809;
+	color: #3D2106;
 	pointer-events: none;
 	opacity: 1;
 }
