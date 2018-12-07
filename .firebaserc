@@ -1,5 +1,6 @@
 {
   "projects": {
-    "website": "smellofcoffeebr"
+    "website": "smellofcoffeebr",
+    "default": "smellofcoffeebr"
   }
 }
