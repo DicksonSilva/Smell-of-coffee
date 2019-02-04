@@ -1,5 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url(https://fonts.gstatic.com/s/crimsontext/v8/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2);
+<<<<<<< HEAD
+=======
+@import url(https://fonts.googleapis.com/css?family=Sedgwick+Ave@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+>>>>>>> a561e0f1d2551cbbcbc857772262ed9852a4deac
 @import url('https://fonts.googleapis.com/css?family=Redressed');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Noto+Sans+TC');
 html{
@@ -9,6 +14,7 @@ html{
 }
 
 body{
+<<<<<<< HEAD
 
 	padding:0px;
 	margin:0px;
@@ -88,6 +94,12 @@ ul li:hover{
 		border-bottom: 1px solid black;
 
 	}
+=======
+	font:24px/1.5 Crimson Text, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:  #EAF0F2;
+>>>>>>> a561e0f1d2551cbbcbc857772262ed9852a4deac
 }
 
 .cabecalho-basico {
@@ -98,6 +110,18 @@ ul li:hover{
 	height: 80px;
 	box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+.cabecalho-inferior{
+	background-color: #BF9A76;
+	font:24px/1.5 Crimson Text, sans-serif;
+	top: 80px;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+	padding: 0px;
+	height: 80vh;
+	box-sizing: border-box;
+	color: #EAF0F2;
+>>>>>>> a561e0f1d2551cbbcbc857772262ed9852a4deac
 
 .cabecalho-basico .cabecalho-limite {
 	max-width: 1200px;
@@ -112,13 +136,18 @@ ul li:hover{
 	font-family: 24px/1 'Noto Sans TC', sans-serif;
 	line-height: 40px;
 	margin: 0;
+	text-shadow: 2px 2px 2px #aaa;
 }
 
 .cabecalho-basico .cabecalho-limite h1 span {
 	color: #3D2106;
 	font-family: 'Redressed', cursive;
+<<<<<<< HEAD
 	font-size: 65px;
 	text-shadow: 2px 2px 2px #aaa;
+=======
+	font-size: 57px;
+>>>>>>> a561e0f1d2551cbbcbc857772262ed9852a4deac
 }
 
 /* Os links do cabeçalho */
@@ -127,6 +156,10 @@ ul li:hover{
 	color: #FFFFFF;
 	text-decoration: none;
 	font-family: 24px/1 'Noto Sans TC', sans-serif;
+<<<<<<< HEAD
+=======
+	text-shadow: 2px 2px 2px #aaa;
+>>>>>>> a561e0f1d2551cbbcbc857772262ed9852a4deac
 }
 
 .cabecalho-basico .cabecalho-limite nav{
@@ -155,6 +188,7 @@ ul li:hover{
 	opacity: 1;
 }
 
+<<<<<<< HEAD
 
 .rodape{
 	position: absolute;
@@ -164,6 +198,45 @@ ul li:hover{
 	text-align: center;
 	background: #98734F;
 }
+=======
+.caixa-topico {
+	padding: 0px;
+	color: #222222;
+	box-sizing: border-box;
+	width: 310px;
+	height: 70vh;
+	top: 5vh;
+	position: relative;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.caixa-esquerda {
+	
+	float: left;
+}
+
+.caixa-centro {
+	margin: 0 auto;
+}
+
+.caixa-direita {
+	float: right;
+}
+
+img {
+	max-width: 300px;
+	max-height: 300px;
+	top: 5px;
+	left: 5px;
+	text-align: center;
+	position: absolute;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 0 auto;
+	
+>>>>>>> a561e0f1d2551cbbcbc857772262ed9852a4deac
 
 
 .container{
@@ -180,6 +253,7 @@ ul li:hover{
 	margin: 0px;
 }
 
+<<<<<<< HEAD
 .container ul li{
 	list-style: none;
 	float: left;
@@ -227,4 +301,25 @@ ul li:hover{
 		width: 90%;
 		margin: 40px auto;
 	}
+=======
+.p-caixa{
+	color: white;
+	width: 310px;
+	height: 310px;
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	padding: 0px;
+	margin-top: 50vh;
+}
+
+#img {
+	width: 310px;
+	height: 310px;
+	border-radius: 50%;
+	position: relative;
+	background-color: white;
+	padding: 0px;
+	display: block;
+>>>>>>> a561e0f1d2551cbbcbc857772262ed9852a4deac
 }
