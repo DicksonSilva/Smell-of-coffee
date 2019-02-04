@@ -1,40 +1,105 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url(https://fonts.gstatic.com/s/crimsontext/v8/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2);
-@import url(https://fonts.googleapis.com/css?family=Sedgwick+Ave);
-
-
+@import url('https://fonts.googleapis.com/css?family=Redressed');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Noto+Sans+TC');
 html{
 	background-color: #98734F;
+
+
 }
 
 body{
-	font-family: 'Sedgwick Ave', cursive;
-	padding:0;
-	margin:0;
-	background-color:  #EAF0F2;
+
+	padding:0px;
+	margin:0px;
+}
+
+.nav{
+	width: 100%;
+	height: 60px;
+	padding: 20px 0px;
+	background-color: #98734F;
+	text-align: right;
+	
+}
+.nav span{
+	color: #3D2106;
+	font-family: 'Redressed', cursive;
+	font-size: 65px;
+	text-shadow: 2px 2px 2px #aaa;
+}
+.nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 24px/1 'Noto Sans TC', sans-serif;
+}
+
+
+.nav li{
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	background: #98734F;
+	font-family: calibri;
+	margin-right: 10px;
+	border-radius:  10px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+}
+.nav li:first-child{
+	position: absolute;
+	left: 10px;
+	background: #98734F;
+	color: black;
+	font-size: 50px;
+	width: 25%;
+	font-weight: bold;
+}
+
+ul li:hover{
+	background: grey;
+	color: white;
+	font-weight: bold;
+} 
+
+@media screen and (max-width: 1000px){
+	.nav{
+		text-align: left;
+		padding: auto;
+	}
+
+		.nav li:first-child {
+			width: 100%;
+			height: 70px;
+			padding: 0px;
+			margin: 0px;
+			position: relative;
+			left: 0px;
+	}
+
+	.nav li{
+		float: left;
+		padding: 0px;
+		width: 25%;
+		margin: 0px;
+		border-radius: 0px;
+		text-align: center;
+		border-bottom: 1px solid black;
+
+	}
 }
 
 .cabecalho-basico {
 	background-color: #98734F;
+	font:24px/1.5 Crimson Text, sans-serif;
 	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
 	padding: 20px 40px;
 	height: 80px;
 	box-sizing: border-box;
 }
-.cabecalho-inferior{
-	background-color: #BF9A76;
-	font:24px/1.5 Crimson Text, sans-serif;
-	top: 80px;
-	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
-	padding: 20px 40px;
-	height: 80vh;
-	box-sizing: border-box;
-	color: #EAF0F2;
 
-	
-}
-
-.cabecalho-basico .cabecalho-limite .cabecalho-inferior {
+.cabecalho-basico .cabecalho-limite {
 	max-width: 1200px;
 	text-align: center;
 	margin: 0 auto;
@@ -44,20 +109,24 @@ body{
 
 .cabecalho-basico .cabecalho-limite h1 {
 	float: left;
-	font: normal 48px Cookie, Arial, Helvetica, sans-serif;
+	font-family: 24px/1 'Noto Sans TC', sans-serif;
 	line-height: 40px;
 	margin: 0;
 }
 
 .cabecalho-basico .cabecalho-limite h1 span {
 	color: #3D2106;
+	font-family: 'Redressed', cursive;
+	font-size: 65px;
+	text-shadow: 2px 2px 2px #aaa;
 }
 
 /* Os links do cabeçalho */
 
 .cabecalho-basico .cabecalho-limite a {
-	color: #EAF0F2;
+	color: #FFFFFF;
 	text-decoration: none;
+	font-family: 24px/1 'Noto Sans TC', sans-serif;
 }
 
 .cabecalho-basico .cabecalho-limite nav{
@@ -77,6 +146,7 @@ body{
 
 .cabecalho-basico .cabecalho-limite nav a:hover{
 	opacity: 1;
+	color: #5F2F00;
 }
 
 .cabecalho-basico .cabecalho-limite nav a.selected {
@@ -85,19 +155,76 @@ body{
 	opacity: 1;
 }
 
-img {
-	max-width: 40vw;
-	text-align: center;
-	right:  80px;
-	position: absolute;
-	border-radius: 10px;
 
+.rodape{
+	position: absolute;
+	width: 1200px;
+	float: left;
+	padding: 3% 5.55%;
+	text-align: center;
+	background: #98734F;
 }
 
-.limite-esquerda{
-	max-width: 30vw;
-	text-align: center;
+
+.container{
+	width: 100%;
+	height: 90%;
+	overflow: hidden;
+	background: #E6CDB5;
 	margin: 0 auto;
-	position: absolute;
-	padding: 20vh 7vw;
+	padding: 20px 0px;
+}
+
+.container ul{
+	padding: 0px 12px;
+	margin: 0px;
+}
+
+.container ul li{
+	list-style: none;
+	float: left;
+	width: 21%;
+	height: 300px;
+	background: red;
+	margin: 40px 30px 0px 20px;
+	box-sizing: border-box;
+	border: 2px solid white;
+}
+
+.container ul li:hover{
+	opacity: 0.9;
+}
+.container ul li .title:hover{
+	background: #98734F;
+	color: white;
+}
+
+.container ul li .title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: white;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1250px){
+	.container ul li{
+		width: 40%;
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.container {
+		width: 100%;
+		margin: 0px;
+	}
+}
+@media screen and {
+	.container ul li{
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
 }
