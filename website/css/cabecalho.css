@@ -2,28 +2,25 @@
 @import url(https://fonts.gstatic.com/s/crimsontext/v8/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2);
 @import url('https://fonts.googleapis.com/css?family=Redressed');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Noto+Sans+TC');
-html{
-	background-color: #98734F;
 
-
-}
 
 body{
-
+background-color: #6A3212;
 	padding:0px;
 	margin:0px;
+
 }
 
 .nav{
 	width: 100%;
 	height: 60px;
 	padding: 20px 0px;
-	background-color: #98734F;
+	background-color: #6A3212;
 	text-align: right;
 	
 }
 .nav span{
-	color: #3D2106;
+	color: #342014;
 	font-family: 'Redressed', cursive;
 	font-size: 65px;
 	text-shadow: 2px 2px 2px #aaa;
@@ -39,7 +36,7 @@ body{
 	display: inline-block;
 	width: 100px;
 	height: 60px;
-	background: #98734F;
+	background: #C8641D;
 	font-family: calibri;
 	margin-right: 10px;
 	border-radius:  10px;
@@ -50,7 +47,7 @@ body{
 .nav li:first-child{
 	position: absolute;
 	left: 10px;
-	background: #98734F;
+	background: #6A3212;
 	color: black;
 	font-size: 50px;
 	width: 25%;
@@ -58,7 +55,7 @@ body{
 }
 
 ul li:hover{
-	background: grey;
+	background: #844724;
 	color: white;
 	font-weight: bold;
 } 
@@ -90,71 +87,6 @@ ul li:hover{
 	}
 }
 
-.cabecalho-basico {
-	background-color: #98734F;
-	font:24px/1.5 Crimson Text, sans-serif;
-	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
-	padding: 20px 40px;
-	height: 80px;
-	box-sizing: border-box;
-}
-
-.cabecalho-basico .cabecalho-limite {
-	max-width: 1200px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-/* Logo */
-
-.cabecalho-basico .cabecalho-limite h1 {
-	float: left;
-	font-family: 24px/1 'Noto Sans TC', sans-serif;
-	line-height: 40px;
-	margin: 0;
-}
-
-.cabecalho-basico .cabecalho-limite h1 span {
-	color: #3D2106;
-	font-family: 'Redressed', cursive;
-	font-size: 65px;
-	text-shadow: 2px 2px 2px #aaa;
-}
-
-/* Os links do cabeçalho */
-
-.cabecalho-basico .cabecalho-limite a {
-	color: #FFFFFF;
-	text-decoration: none;
-	font-family: 24px/1 'Noto Sans TC', sans-serif;
-}
-
-.cabecalho-basico .cabecalho-limite nav{
-	font:16px Arial, Helvetica, sans-serif;
-	line-height: 40px;
-	float: right;
-}
-
-.cabecalho-basico .cabecalho-limite nav a{
-	display: inline-block;
-	padding: 0 5px;
-	text-decoration:none;
-	color: #ffffff;
-	font-size: 16px;
-	opacity: 0.9;
-}
-
-.cabecalho-basico .cabecalho-limite nav a:hover{
-	opacity: 1;
-	color: #5F2F00;
-}
-
-.cabecalho-basico .cabecalho-limite nav a.selected {
-	color: #3D2106;
-	pointer-events: none;
-	opacity: 1;
-}
-
 
 .rodape{
 	position: absolute;
@@ -162,7 +94,7 @@ ul li:hover{
 	float: left;
 	padding: 3% 5.55%;
 	text-align: center;
-	background: #98734F;
+	background: #6A3212;
 }
 
 
@@ -193,9 +125,11 @@ ul li:hover{
 
 .container ul li:hover{
 	opacity: 0.9;
+	box-shadow: 0 0  10px #111; 
+
 }
 .container ul li .title:hover{
-	background: #98734F;
+	background: #342014;
 	color: white;
 }
 
@@ -205,12 +139,13 @@ ul li:hover{
 	line-height: 50px;
 	background: white;
 	text-align: center;
+	color: black;
 }
 
 
 @media screen and (max-width: 1250px){
 	.container ul li{
-		width: 40%;
+		width: 300px;
 		margin-left: 50px;
 	}
 }
@@ -220,11 +155,14 @@ ul li:hover{
 		width: 100%;
 		margin: 0px;
 	}
+
 }
 @media screen and {
 	.container ul li{
 		float: none;
-		width: 90%;
+		width: 300px;
 		margin: 40px auto;
 	}
+
+
 }
